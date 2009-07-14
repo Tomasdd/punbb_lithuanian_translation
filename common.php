@@ -5,137 +5,137 @@ $lang_common = array(
 
 // Text orientation and encoding
 'lang_direction'			=>	'ltr',	// ltr (Left-To-Right) or rtl (Right-To-Left)
-'lang_identifier'			=>	'en',
+'lang_identifier'			=>	'lt',
 
 // Number formatting
-'lang_decimal_point'		=>	'.',
-'lang_thousands_sep'		=>	',',
+'lang_decimal_point'	=>	',',
+'lang_thousands_sep'	=>	'',
 
 // Notices
-'Bad request'				=>	'Bad request. The link you followed is incorrect or outdated.',
-'No view'					=>	'You do not have permission to view these forums.',
-'No permission'				=>	'You do not have permission to access this page.',
-'CSRF token mismatch'		=>	'Unable to confirm security token. A likely cause for this is that some time passed between when you first entered the page and when you submitted a form or clicked a link. If that is the case and you would like to continue with your action, please click the Confirm button. Otherwise, you should click the Cancel button to return to where you were.',
-'No cookie'					=>	'You appear to have logged in successfully, however a cookie has not been set. Please check your settings and if applicable, enable cookies for this website.',
+'Bad request'				=>	'Neteisinga užklausa. Nuoroda kuria jūs atėjote yra neteisinga arba pasenusi.', //'Bad request. The link you followed is incorrect or outdated.',
+'No view'					=>	'Jūs neturite teisės peržiūrėti šiuos forumus',//'You do not have permission to view these forums.',
+'No permission'				=>	'Jūs neturite teisės peržiūrėti šį puslapį', //'You do not have permission to access this page.',
+'CSRF token mismatch'		=>	'Nepavyko patvirtinti saugumo kodo. Galima to priežastis, kad nuo puslapio atsivertimo praėjo perdaug laiko. Jei norite tęsti, paspauskite "Patvirtinti" mygtuką, kitu atveju spauskite "Atšaukti" ir grįšite į prieš tai buvusį puslapį.', //'Unable to confirm security token. A likely cause for this is that some time passed between when you first entered the page and when you submitted a form or clicked a link. If that is the case and you would like to continue with your action, please click the Confirm button. Otherwise, you should click the Cancel button to return to where you were.',
+'No cookie'					=>	'Jums pavyko prisijungti, tačiau slapukas (cookie) nebuvo sukurtas. Patikrinkite naršyklės slapukų nustatymus ir įjunkite juos šiai svetainei.', //'You appear to have logged in successfully, however a cookie has not been set. Please check your settings and if applicable, enable cookies for this website.',
 
 
 // Miscellaneous
-'Forum index'				=>	'Forum index',
-'Submit'					=>	'Submit',	// "name" of submit buttons
-'Cancel'					=>	'Cancel', // "name" of cancel buttons
-'Preview'					=>	'Preview',	// submit button to preview message
-'Delete'					=>	'Delete',
-'Split'						=>	'Split',
-'Ban message'				=>	'You are banned from this forum.',
-'Ban message 2'				=>	'The ban expires at the end of %s.',
-'Ban message 3'				=>	'The administrator or moderator that banned you left the following message:',
-'Ban message 4'				=>	'Please direct any inquiries to the forum administrator at %s.',
-'Never'						=>	'Never',
-'Today'						=>	'Today',
-'Yesterday'					=>	'Yesterday',
-'Forum message'				=>	'Forum message',
-'Maintenance warning'		=>	'<strong>WARNING! %s Enabled.</strong> DO NOT LOGOUT as you will be unable to login again.',
-'Maintenance mode'			=>	'Maintenance Mode',
-'Redirecting'				=>	'Redirecting',
-'Forwarding info'			=>	'You should automatically be forwarded to a new page in %s %s.',
-'second'					=>	'second',	// singular
-'seconds'					=>	'seconds',	// plural
-'Click redirect'			=>	'Click here if you do not want to wait any longer (or if your browser does not automatically forward you)',
-'Invalid e-mail'			=>	'The e-mail address you entered is invalid.',
-'New posts'					=>	'New posts',	// the link that leads to the first new post
-'New posts title'			=>	'Find topics containing posts made since your last visit.',	// the popup text for new posts links
-'Active topics'				=>	'Active topics',
-'Active topics title'		=>	'Find topics which contain recent posts.',
-'Unanswered topics'			=>	'Unanswered topics',
-'Unanswered topics title'	=>	'Find topics which have not been replied to.',
-'Username'					=>	'Username',
-'Registered'				=>	'Registered',
-'Write message'				=>	'Write message:',
-'Forum'						=>	'Forum',
-'Posts'						=>	'Posts',
-'Pages'						=>	'Pages',
-'Page'						=>	'Page',
+'Forum index'				=>	'Titulinis forumo puslapis',
+'Submit'					=>	'Siųsti',	// "name" of submit buttons
+'Cancel'					=>	'Atšaukti', // "name" of cancel buttons
+'Preview'					=>	'Peržiūrėti prieš siunčiant',	// submit button to preview message
+'Delete'					=>	'Trinti',
+'Split'						=>	'Perskirti',
+'Ban message'				=>	'Jūs blokuojamas šiame forume.',
+'Ban message 2'				=>	'Blokavimas baigsis %s.',
+'Ban message 3'				=>	'Administratorius ar moderatorius, kuris jus užblokavo paliko tokią žinutę:',
+'Ban message 4'				=>	'Visus klausimus siųskite forumo administratoriui adresu %s.',
+'Never'						=>	'Niekada',
+'Today'						=>	'Šiandien',
+'Yesterday'					=>	'Vakar',
+'Forum message'				=>	'Forumo žinutė',
+'Maintenance warning'		=>	'<strong>DĖMESIO! %s Įjungtas.</strong> NEATSIJUNKITE NUO SISTEMOS nes jums nepavyks vėl prie jos prisijungti.',
+'Maintenance mode'			=>	'Techninė profilaktika',
+'Redirecting'				=>	'Peradresuojama',
+'Forwarding info'			=>	'Jūs būsite automatiškai nusiųstas į naują puslapį už %s %s.',
+'second'					=>	'sekundė',	// singular
+'seconds'					=>	'sekundės',	// plural
+'Click redirect'			=>	'Spauskite čia jei nebenorite ilgiau laukti (arba jei jūsų naršyklė nepersiunčia jūsų automatiškai)',
+'Invalid e-mail'			=>	'Jūs įvedėte neteisingą el. pašto adresą.',
+'New posts'					=>	'Naujos žinutės',	// the link that leads to the first new post
+'New posts title'			=>	'Surasti temas, kuriose yra naujų žinučių nuo jūsų paskutinio apsilankymo.',	// the popup text for new posts links
+'Active topics'				=>	'Aktyvios temos',
+'Active topics title'		=>	'Surasti temas, kuriose yra paskutinės žinutės.',
+'Unanswered topics'			=>	'Neatsakytos temos',
+'Unanswered topics title'	=>	'Surasti temas į kurias nebuvo atsakyta.',
+'Username'					=>	'Vartotojo vardas',
+'Registered'				=>	'Užsiregistravęs',
+'Write message'				=>	'Rašyti žinutę:',
+'Forum'						=>	'Forumas',
+'Posts'						=>	'Žinutės',
+'Pages'						=>	'Puslapių',
+'Page'						=>	'Puslapis',
 'BBCode'					=>	'BBCode',	// You probably shouldn't change this
-'Smilies'					=>	'Smilies',
-'Images'					=>	'Images',
-'You may use'				=>	'You may use: %s',
-'and'						=>	'and',
-'Image link'				=>	'image',	// This is displayed (i.e. <image>) instead of images when "Show images" is disabled in the profile
-'wrote'						=>	'wrote',	// For [quote]'s (e.g., User wrote:)
-'Code'						=>	'Code',		// For [code]'s
+'Smilies'					=>	'Šypsenėlės',
+'Images'					=>	'Paveikslėliai',
+'You may use'				=>	'Jūs galite naudoti: %s',
+'and'						=>	'ir',
+'Image link'				=>	'paveikslėlis',	// This is displayed (i.e. <image>) instead of images when "Show images" is disabled in the profile
+'wrote'						=>	'rašė',	// For [quote]'s (e.g., User wrote:)
+'Code'						=>	'Kodas',		// For [code]'s
 'Forum mailer'				=>	'%s Mailer',	// As in "MyForums Mailer" in the signature of outgoing e-mails
-'Write message legend'		=>	'Compose your post',
-'Required information'		=>	'Required information',
+'Write message legend'		=>	'Žinutės kūrimas',
+'Required information'		=>	'Informacija privaloma',
 'Reqmark'					=>	'*',
-'Required'					=>	'(Required)',
-'Required warn'				=>	'All fields labelled %s must be completed before the form is submitted.',
+'Required'					=>	'(Privaloma)',
+'Required warn'				=>	'Visi laukeliai pažymėti %s turi būti užpildyti.',
 'Crumb separator'			=>	' »&#160;', // The character or text that separates links in breadcrumbs
 'Title separator'			=>	' - ',
 'Page separator'			=>	'&#160;', //The character or text that separates page numbers
 'Spacer'					=>	'…', // Ellipsis for paginate
 'Paging separator'			=>	' ', //The character or text that separates page numbers for page navigation generally
-'Previous'					=>	'Previous',
-'Next'						=>	'Next',
-'Cancel redirect'			=>	'Operation cancelled. Redirecting…',
-'No confirm redirect'		=>	'No confirmation provided. Operation cancelled. Redirecting…',
-'Please confirm'			=>	'Please confirm:',
-'Help page'					=>	'Help with: %s',
+'Previous'					=>	'Atgal',
+'Next'						=>	'Pirmyn',
+'Cancel redirect'			=>	'Operacija nutraukta. Persiunčiama…',
+'No confirm redirect'		=>	'Patvirtinimas nepateiktas. Operacija nutraukta. Persiunčiama…',
+'Please confirm'			=>	'Prašome patvirtinti:',
+'Help page'					=>	'Pagalba apie: %s',
 'Re'						=>	'Re:',
-'Page info'					=>	'(Page %1$s of %2$s)',
+'Page info'					=>	'(Puslapis %1$s iš %2$s)',
 'Item info single'			=>	'%s [ %s ]',
 'Item info plural'			=>	'%s [ %s to %s of %s ]', // e.g. Topics [ 10 to 20 of 30 ]
 'Info separator'			=>	' ', // e.g. 1 Page | 10 Topics
-'Powered by'				=>	'Powered by <strong>%s</strong>, supported by <strong>%s</strong>.',
-'Maintenance'				=>	'Maintenance',
+'Powered by'				=>	'Naudojama <strong>%s</strong>',
+'Maintenance'				=>	'Techninė profilaktika',
 
 // CSRF confirmation form
-'Confirm'					=>	'Confirm',	// Button
-'Confirm action'			=>	'Confirm action',
-'Confirm action head'		=>	'Please confirm or cancel your last action',
+'Confirm'					=>	'Patvirtinti',	// Button
+'Confirm action'			=>	'Patvirtinti veiksmą',
+'Confirm action head'		=>	'Prašome patvirtinti arba atšaukti jūsų paskutinį veiksmą',
 
 // Title
-'Title'						=>	'Title',
-'Member'					=>	'Member',	// Default title
-'Moderator'					=>	'Moderator',
-'Administrator'				=>	'Administrator',
-'Banned'					=>	'Banned',
-'Guest'						=>	'Guest',
+'Title'						=>	'Antraštė',
+'Member'					=>	'Narys',	// Default title
+'Moderator'					=>	'Moderatorius',
+'Administrator'				=>	'Administratorius',
+'Banned'					=>	'Užblokuota',
+'Guest'						=>	'Svečias',
 
 // Stuff for include/parser.php
-'BBCode error 1'			=>	'[/%1$s] was found without a matching [%1$s]',
-'BBCode error 2'			=>	'[%s] tag is empty',
-'BBCode error 3'			=>	'[%1$s] was opened within [%2$s], this is not allowed',
-'BBCode error 4'			=>	'[%s] was opened within itself, this is not allowed',
-'BBCode error 5'			=>	'[%1$s] was found without a matching [/%1$s]',
-'BBCode error 6'			=>	'[%s] tag had an empty attribute section',
-'BBCode nested list'		=>	'[list] tags cannot be nested',
-'BBCode code problem'		=>	'There is a problem with your [code] tags',
+'BBCode error 1'			=>	'[/%1$s] nerasta uždaranti žymė [%1$s]',
+'BBCode error 2'			=>	'[%s] žymė tuščia',
+'BBCode error 3'			=>	'[%1$s] buvo pradėtas su [%2$s], tai neleistina',
+'BBCode error 4'			=>	'[%s] buvo pradėtas savo viduje, tai neleistina',
+'BBCode error 5'			=>	'[%1$s] nerastas atitinkantis [/%1$s]',
+'BBCode error 6'			=>	'[%s] tušti žymės atributai',
+'BBCode nested list'		=>	'[list] žymė negali būti kitos [list] žymės viduje',
+'BBCode code problem'		=>	'Problemos su [code] žymėmis',
 
 // Stuff for the navigator (top of every page)
-'Index'						=>	'Index',
-'User list'					=>	'User list',
-'Rules'						=>  'Rules',
-'Search'					=>  'Search',
-'Register'					=>  'Register',
-'register'					=>	'register',
-'Login'						=>  'Login',
-'login'						=>	'login',
-'Not logged in'				=>  'You are not logged in.',
-'Profile'					=>	'Profile',
-'Logout'					=>	'Logout',
-'Logged in as'				=>	'Logged in as %s.',
-'Admin'						=>	'Administration',
-'Last visit'				=>	'Last visit %s',
-'Mark all as read'			=>	'Mark all topics as read',
-'Login nag'					=>	'Please login or register.',
-'New reports'				=>	'New reports',
+'Index'						=>	'Pradžia',
+'User list'					=>	'Vartotojai',
+'Rules'						=>  'Taisyklės',
+'Search'					=>  'Paieška',
+'Register'					=>  'Registracija',
+'register'					=>	'užsiregistruoti',
+'Login'						=>  'Prisijungti',
+'login'						=>	'prisijungti',
+'Not logged in'				=>  'Jūs neprisijungęs.',
+'Profile'					=>	'Vartotojo informacija',
+'Logout'					=>	'Atsijungti',
+'Logged in as'				=>	'Prisijungęs kaip %s.',
+'Admin'						=>	'Valdymas',
+'Last visit'				=>	'Paskutinis apsilankymas %s',
+'Mark all as read'			=>	'Pažymėti visas temas kaip perskaitytas',
+'Login nag'					=>	'Prašome prisijungti arba užsiregistruoti.',
+'New reports'				=>	'Naujos ataskaitos',
 
 // Alerts
-'New alerts'				=>	'New Alerts',
-'Maintenance alert'			=>	'<strong>WARNING! Maintenance mode enabled.</strong> This board is currently in maintenance mode. <em>DO NOT</em> logout, if you do you will not be able to login again.',
-'Updates'					=>	'PunBB updates:',
+'New alerts'				=>	'Nauji perspėjimai',
+'Maintenance alert'			=>	'<strong>DĖMESIO! Techninės profilaktikos režimas.</strong> Ši diskusijų lenta dabar tvarkoma. <em>NEATSIJUNKITE</em>, nes negalėsite iš naujo prisijungti.',
+'Updates'					=>	'PunBB atnaujinimai:',
 'Updates failed'			=>	'The latest attempt at checking for updates against the punbb.informer.com updates service failed. This probably just means that the service is temporarily overloaded or out of order. However, if this alert does not disappear within a day or two, you should disable the automatic check for updates and check for updates manually in the future.',
-'Updates version n hf'		=>	'A newer version of PunBB, version %s, is available for download at <a href="http://punbb.informer.com/">punbb.informer.com</a>. Furthermore, one or more hotfixes are available for install on the <a href="%s">Manage hotfixes</a> tab of the admin interface.',
+'Updates version n hf'		=>	'A newer version of PunBB, version %s, is available for download at <a href="http://punbb.informer.com/">punbb.informer.com</a>. Furthermore, one or more hotfixes are available for install on the strong>Extensions</strong> » <strong>Manage hotfixes</strong> tab of the admin interface.',
 'Updates version'			=>	'A newer version of PunBB, version %s, is available for download at <a href="http://punbb.informer.com/">punbb.informer.com</a>.',
 'Updates hf'				=>	'One or more hotfixes are available for install on the <a href="%s">Manage hotfixes</a> tab of the admin interface.',
 'Database mismatch'			=>	'Database version mismatch',
@@ -143,22 +143,22 @@ $lang_common = array(
 
 // Stuff for Jump Menu
 'Go'						=>	'Go',		// submit button in forum jump
-'Jump to'					=>	'Jump to forum:',
+'Jump to'					=>	'Peršokti į forumą:',
 
 // For extern.php RSS feed
-'RSS description'			=>	'The most recent topics at %s.',
-'RSS description topic'		=>	'The most recent posts in %s.',
+'RSS description'			=>	'Naujausios temos %s.',
+'RSS description topic'		=>	'Naujausios žinutės per %s.',
 'RSS reply'					=>	'Re: ',	// The topic subject will be appended to this string (to signify a reply)
 
 // Accessibility
-'Skip to content'			=>	'Skip to forum content',
+'Skip to content'					=>	'Peršokti prie forumo turinio',
 
 // Debug information
-'Querytime'					=>	'Generated in %1$s seconds, %2$s queries executed',
-'Debug table'				=>	'Debug information',
-'Debug summary'				=>	'Database query performance information',
-'Query times'				=>	'Time (s)',
-'Query'						=>	'Query',
-'Total query time'			=>	'Total query time',
+'Querytime'						=>	'Sugeneruota per %1$s sekundžių. Užklausų skaičius: %2$s',
+'Debug table'						=>	'Debug information',
+'Debug summary'						=>	'Database query performance information',
+'Query times'						=>	'Time (s)',
+'Query'							=>	'Query',
+'Total query time'					=>	'Total query time',
 
 );

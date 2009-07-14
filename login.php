@@ -1,32 +1,32 @@
 <?php
 
-// Language definitions used in login.php
+// Language definitions used in delete.php
 $lang_login = array(
 
 // Miscellaneous
-'Login'								=>	'Login',
-'Login info'						=>	'Login to %s',
-'Username'							=>	'Username',
-'Password'							=>	'Password',
-'Remember me'						=>	'Remember me',
-'E-mail address'					=>	'E-mail address',
-'E-mail address help'				=>	'Enter the e-mail address set in your profile.',
-'Login errors'						=>	'<strong>Warning!</strong> The following errors must be corrected before you can login:',
-'Wrong user/pass'					=>	'Incorrect username and/or password.',
-'Login redirect'					=>	'Logged in successfully. Redirecting…',
-'Logout redirect'					=>	'Logged out. Redirecting…',
-'No e-mail match'					=>	'There is no user registered with the e-mail address %s.',
-'Invalid e-mail'					=>	'The e-mail address you entered is invalid.',
-'Login options'						=>	'Do you need to %1$s or obtain a %2$s before you login?',
-'Obtain pass'						=>	'new password',
-'register'							=>	'register',
-'Submit password request'			=>	'Submit request',
-'Email flood'						=>	'This account has already requested a new password in the past %s seconds. Please wait a while before requesting a new password again.',
-'New password request'				=>	'New password request',
-'New password errors'				=>	'<strong>Warning!</strong> The following errors must be corrected before a new password can be sent:',
-'New password info'					=>	'<strong>Important!</strong> An e-mail will be sent to the specified address with instructions on how to change your password.',
-'New password cancel redirect'		=>	'New password request cancelled. Redirecting…',
-'Forget mail'						=>	'An e-mail has been sent to the specified address with instructions on how to change your password. If it does not arrive you can contact the forum administrator at %s.',
-'Persistent login'					=>	'Log me in automatically each time I visit.'
+'Login'								=>	'Prisijungti',
+'Login info'						=>	'Prisijungti į %s',
+'Username'							=>	'Vartotojo vardsa',
+'Password'							=>	'Slaptažodis',
+'Remember me'						=>	'Prisiminti mane',
+'E-mail address'					=>	'El. pašto adresas',
+'E-mail address help'				=>	'Įveskite el. pašto adresą, kuris nurodytas jūsų profilyje.',
+'Login errors'						=>	'<strong>Perspėjimas!</strong> Ištaisykite klaidas norėdami prisijungti:',
+'Wrong user/pass'					=>	'Neteisingas vartotojo vardas ir/arba slaptažodis.',
+'Login redirect'					=>	'Prisijungėte sėkmingai. Persiunčiama…',
+'Logout redirect'					=>	'Atsijungėte. Persiunčiama…',
+'No e-mail match'					=>	'Nėra vartotojo su nurodytu el. pašto adresu %s.',
+'Invalid e-mail'					=>	'Jūsų įvestas el. pašto adresas neteisingas.',
+'Login options'						=>	'Galbūt Jums reikia %1$s arba gauti %2$s prieš prisijungiant?',
+'Obtain pass'						=>	'naują slaptažodį',
+'register'							=>	'užsiregistruoti',
+'Submit password request'			=>	'Siųsti',
+'Email flood'						=>	 'Šis vartotojas jau prašė naujo slaptažodžio per paskutines %s sekundes. Prašome truputį palaukti prieš pakartojant operaciją',
+'New password request'				=>	'Naujo slaptažodžio išdavimas',
+'New password errors'				=>	'<strong>Perspėjimas!</strong> Šios klaidos turi būti ištaisytos prieš išsiunčiant Jums naują slaptažodį:',
+'New password info'					=>	'<strong>Svarbu!</strong> Laiškas su instrukcijomis, kaip pasikeisti slaptažodį, bus išsiųstas el. paštu, Jūsų nurodytu adresu.',
+'New password cancel redirect'		=>	'Naujo slaptažodžio išdavimas nutrauktas. Persiunčiama…',
+'Forget mail'						=>	'Laiškas su instrukcijomis, kaip pasikeisti slaptažodį, buvo išsiųstas nurodytu adresu. Jeigu negausite laiško, galite susisiekti su administratoriumi adresu %s',
+'Persistent login'					=>	'Prijungti mane automatiškai, kiekvieno apsilankymo metu.'
 
 );
