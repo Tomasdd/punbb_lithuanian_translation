@@ -6,7 +6,7 @@ $lang_login = array(
 // Miscellaneous
 'Login'								=>	'Prisijungti',
 'Login info'						=>	'Prisijungti į %s',
-'Username'							=>	'Vartotojo vardsa',
+'Username'							=>	'Vartotojo vardas',
 'Password'							=>	'Slaptažodis',
 'Remember me'						=>	'Prisiminti mane',
 'E-mail address'					=>	'El. pašto adresas',
